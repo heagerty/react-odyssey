@@ -4,8 +4,6 @@ import React, {Component} from "react";
 
 class SignUp extends Component {
 
-
-
     state = {
         email: 'test@test.com'
     }
