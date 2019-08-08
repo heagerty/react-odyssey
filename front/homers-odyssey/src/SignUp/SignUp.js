@@ -11,7 +11,7 @@ class SignUp extends Component {
     }
 
 
-    handleChange = (e) => {
+    updateEmailField = (e) => {
          this.setState({
              email: e.target.value
          })
@@ -22,7 +22,7 @@ class SignUp extends Component {
             <div>
                 <form>
                     <h1>{this.state.email}</h1>
-                    <input type="email" name="email" onChange={this.handleChange}/>
+                    <input type="email" name="email" onChange={this.updateEmailField}/>
                 </form>
             </div>
         )
